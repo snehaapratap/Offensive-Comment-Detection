@@ -52,6 +52,31 @@ pip install -r requirements.txt
 
 ---
 
+### 🔐 Using OpenAI API Key with `.env`
+
+#### 1. Install `python-dotenv` (if not already)
+
+```bash
+pip install python-dotenv
+```
+
+---
+
+#### 2. Create a `.env` file in the root of your project
+
+```bash
+touch .env
+```
+
+Inside `.env`, add:
+
+```
+OPENAI_API_KEY=your-openai-api-key-here
+```
+
+
+---
+
 ## 📥 Input Format
 
 The script expects a `.csv` file with the following columns:
